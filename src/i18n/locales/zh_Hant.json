@@ -1,0 +1,19 @@
+{
+  "welcome": "歡迎來到我們的簡易 React 應用程式",
+  "description": "這是一個在 React 中使用 react-i18next 進行國際化 (i18n) 的示範。",
+  "language": "語言",
+  "selectLanguage": "選擇語言",
+  "currentLanguage": "當前語言",
+  "features": {
+    "title": "特點",
+    "languageSwitch": "切換語言",
+    "persistence": "語言偏好已儲存",
+    "detection": "自動語言識別"
+  },
+  "greeting": "你好！你今天好嗎？",
+  "aboutUs": "關於我們",
+  "aboutDescription": "我們熱衷於創建多語言應用程式，旨在連接來自不同文化和背景的人們。",
+  "contact": "聯絡",
+  "contactDescription": "如有任何問題或建議，請隨時與我們聯繫。",
+  "footer": "使用 ❤️ 與 React i18n 製作"
+}
