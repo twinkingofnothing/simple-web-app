@@ -1,0 +1,11 @@
+# .oneskyapp.yml
+# OneSky configuration file for simple-web-app
+# This file follows OneSky's official configuration format
+# Documentation: https://developers.onesky.ai/docs/github-integration-configuration
+
+files:
+  # Main application translations
+  - source_path: '/src/i18n/locales/en.json'
+    translation_path: '/src/i18n/locales/[locale].json'
+    options:
+      fill_untranslated_keys_with_source_text: true 
