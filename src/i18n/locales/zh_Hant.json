@@ -15,5 +15,6 @@
   "aboutDescription": "我們熱衷於創建多語言應用程式，旨在連接來自不同文化和背景的人們。",
   "contact": "聯絡",
   "contactDescription": "如有任何問題或建議，請隨時與我們聯繫。",
-  "footer": "使用 ❤️ 與 React i18n 製作"
+  "footer": "使用 ❤️ 與 React i18n 製作",
+  "newString": "這是一個新字串"
 }
