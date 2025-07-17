@@ -15,5 +15,6 @@
   "aboutDescription": "We are passionate about creating multilingual applications that connect people from different cultures and backgrounds.",
   "contact": "Contact",
   "contactDescription": "Feel free to reach out to us for any questions or suggestions.",
-  "footer": "Made with ❤️ and React i18n"
+  "footer": "Made with ❤️ and React i18n",
+  "newString": "This is a new string"
 } 
