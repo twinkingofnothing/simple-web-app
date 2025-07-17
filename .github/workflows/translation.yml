@@ -22,8 +22,8 @@ jobs:
         uses: onesky/public-actions@gha/sync-translations
         env:
           # Required: OneSky API credentials (add these as repository secrets)
-          ONESKY_API_KEY: 'eea642ddc9ac8f46b80041ba806cd771'
-          ONESKY_WORKSPACE_ID: 'c3e33db9-5fc6-40c1-be3c-a99b062c7b7c'
+          ONESKY_API_KEY: 'ce53446cec928ae01a7e2f2176a967fe'
+          ONESKY_WORKSPACE_ID: 'd9bd145f-b51d-412c-b689-19309e9ab00d'
           ONESKY_PUBLIC_API_URL: 'https://api.oneskyhq-stag.com/v1'
           
       - name: Create Pull Request
