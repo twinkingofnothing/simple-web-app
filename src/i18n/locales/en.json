@@ -1,0 +1,19 @@
+{
+  "welcome": "Welcome to our Simple React App",
+  "description": "This is a demonstration of internationalization (i18n) in React using react-i18next.",
+  "language": "Language",
+  "selectLanguage": "Select Language",
+  "currentLanguage": "Current Language",
+  "features": {
+    "title": "Features",
+    "languageSwitch": "Switch between languages",
+    "persistence": "Language preference is saved",
+    "detection": "Automatic language detection"
+  },
+  "greeting": "Hello! How are you today?",
+  "aboutUs": "About Us",
+  "aboutDescription": "We are passionate about creating multilingual applications that connect people from different cultures and backgrounds.",
+  "contact": "Contact",
+  "contactDescription": "Feel free to reach out to us for any questions or suggestions.",
+  "footer": "Made with ❤️ and React i18n"
+} 
