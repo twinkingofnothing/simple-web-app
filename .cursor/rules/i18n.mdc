@@ -1,0 +1,42 @@
+---
+description: Bootstraps i18n framework, manages OneSky config, extracts and syncs UI strings
+alwaysApply: false
+---
+# OneSky i18n Bootstrapping & Sync Rules
+
+These rules ensure your project is fully wired for localization from day one and stays in sync as you develop.
+
+---
+
+## 1. Ensure an i18n Framework Is Installed  
+Check for a known framework. If none is found, install and configure a popular i18n library.
+
+---
+
+## 2. Load or Create OneSky Configuration File  
+If `.oneskyapp.yml` exists, read its `source_path` and `translation_path`. Otherwise, fetch the template from  
+`https://developers.onesky.ai/docs/github-integration-configuration`  
+and write it based on your project’s string-file structure.
+
+---
+
+## 3. Determine Source Language  
+Infer the default locale from the `source_path` folder or file name. If inference fails, default to `en`.
+
+---
+
+## 4. Extract All UI Text (Initial Scan)  
+Scan your code for hard-coded UI text. For each literal string:  
+1. Generate a unique key.  
+2. Replace the inline text with your framework’s translation function.  
+3. Append the key and original text to the source string file.
+
+---
+
+## 5. Capture New Text Additions  
+On each file save, detect any newly added UI text. Append each new string to the source string file.
+
+---
+
+## 6. Sync Text Updates to Translations  
+When a source string is modified, update the corresponding entries in all translation string files to keep them in sync.
